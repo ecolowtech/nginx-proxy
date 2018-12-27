@@ -1,5 +1,7 @@
 Forked from https://github.com/jwilder/nginx-proxy
 
+Other nginx configuration files in ```conf.d``` directory are also considered for generating or renewing certificate. ```acme.sh``` is run for each domain tagged with ```ACME_DOMAINS``` in the ```.conf``` file
+
 A new env varaible `ENABLE_ACME` is added to use acme.sh to generate free ssl cert from letsencrypt.
 
 All the other options are the same as the upstream project: https://github.com/jwilder/nginx-proxy
